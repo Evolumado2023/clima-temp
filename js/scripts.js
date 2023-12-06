@@ -1,6 +1,6 @@
 // consumindo a api diretamente aqui
-
-const apiKey = "";
+// senha para acessar o openWeather api: darlin#2023
+const apiKey = "e2c4d4ba08e259cd0c8243550e4ba619";
 const apiCountryURL = "https://countryflagsapi.com/png/";
 const apiUnsplash = "https://source.unsplash.com/1600x900/?";
 
@@ -58,10 +58,19 @@ const showWeatherData = async (city) => {
 
   const data = await getWeatherData(city);
 
+  // adicionei aqui
+  console.log("Data da API:", data);
+
+
   if (data.cod === "404") {
     showErrorMessage();
     return;
   }
+
+  // adicionei aqui também
+  console.log("Cidade:", data.name);
+  console.log("Temperatura:", data.main.temp);
+
 
   cityElement.innerText = data.name;
   tempElement.innerText = parseInt(data.main.temp);
