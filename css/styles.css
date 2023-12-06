@@ -7,6 +7,8 @@
 
 body {
   background: linear-gradient(180deg, rgb(77, 75, 104) 0%, #8dd0f5 100%);
+  /*background: linear-gradient(180deg, rgb(233, 208, 68) 0%, #343c41 100%);*/
+
   display: flex;
   justify-content: center;
   align-items: center;
