@@ -12,7 +12,8 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 100vh;
+  height: 90vh;
+  padding: 50px;
 
   background-position: center;
   background-size: cover;
@@ -106,7 +107,7 @@ body {
 }
 
 #description {
-  text-transform: capitalize;
+  text-transform: capitalize;redes
   font-weight: bold;
 }
 
@@ -164,15 +165,33 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
+  background-color: #8dd0f5;
+  padding: 10px;
+  border-radius: 15px;
 }
 .ccc{
   max-width: 80%;
-  background-color: #8dd0f5;
   align-items: center;
+  justify-content: center;
+  text-align: center;
+  gap: 20px;
+  padding: 10px;
+  color: #5e5b5b;
 }
 
 .icons {
+  margin-top: 10px;
   font-size: 20pt;
   justify-content: center;
-  gap: 10px;
+}
+
+.icons i{
+  margin-right: 5px; 
+  padding-right: 5px;
+}
+
+.icons i:hover{
+  transform: scale(1.5); 
+  transition: .3s;
+  color: #FFF;
 }
