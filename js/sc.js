@@ -1,6 +1,6 @@
 
 function whats(){
-    window.open("https://wa.me/5511954201792?text=Olá, Darlison Silva. Achei seu número no seu site e resolvi entrar em contato. Podemos conversar?");
+    window.open("https://wa.me/5511954201792?text=Prezado Darlison Silva, recentemente, tomei conhecimento do seu sistema de previsão do tempo na internet. Gostaria de saber se poderíamos agendar um momento para uma conversa a respeito. Atenciosamente...");
 }
 
 
