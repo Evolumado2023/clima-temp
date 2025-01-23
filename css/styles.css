@@ -5,6 +5,7 @@
   font-family: "Ubuntu", sans-serif;
 }
 
+
 body {
   background: linear-gradient(180deg, rgb(77, 75, 104) 0%, #8dd0f5 100%);
   /*background: linear-gradient(180deg, rgb(233, 208, 68) 0%, #343c41 100%);*/
@@ -17,6 +18,7 @@ body {
 
   background-position: center;
   background-size: cover;
+
 }
 
 .hide {
@@ -107,7 +109,7 @@ body {
 }
 
 #description {
-  text-transform: capitalize;redes
+  text-transform: capitalize;
   font-weight: bold;
 }
 
@@ -194,4 +196,17 @@ body {
   transform: scale(1.5); 
   transition: .3s;
   color: #FFF;
+}
+
+
+@media(max-width:768px){
+  body{
+    height: 100vh;
+    padding: 10px;
+  }
+  .container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
 }

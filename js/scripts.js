@@ -53,6 +53,7 @@ const hideInformation = () => {
   suggestionContainer.classList.add("hide");
 };
 
+
 const showWeatherData = async (city) => {
   hideInformation();
 
